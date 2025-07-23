@@ -1,81 +1,65 @@
-# Nuxt Starter
+# Amaize
 
-![Netlify + Nuxt Starter Preview](nuxt-starter-preview.jpg)
+**Amaize** is a minimalist, AI-inspired focus companion designed to help you regain momentum when you're feeling stuck. It uses a simple question flow to build clarity, followed by an integrated timer to help you take action.
 
----
-
-Nuxt Starter is a minimal template designed for creating quick landing pages, built with Nuxt 3 and Tailwind CSS.
-
-**View demo:** [https://demo-nuxt-starter.netlify.app/](https://demo-nuxt-starter.netlify.app/)
-
-## Deploy to Netlify
-
-Want to deploy immediately? Click this button
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nuxt-starter)
-
-Clicking this button will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+This project is ideal for those who want a clean, thoughtful alternative to overwhelming productivity systems. Amaize reveals features only when needed and guides users gently into flow.
 
 ## Features
 
-- 🚀 Nuxt 3 with Vue 3
-- 🎨 Tailwind CSS for styling
-- 🖼️ Nuxt Image for optimized image handling
-- 🎯 Nuxt Icon for easy icon integration
-- 📱 Fully responsive design
-- ⚡ Fast and optimized performance
+- Simple, distraction-free interface
+- One-question-at-a-time flow to avoid overwhelm
+- Five reflection prompts to build focus and clarity
+- Smart summary screen with motivational header
+- Built-in timers (5, 15, 30 minutes) with pause, resume, and stop functionality
+- Keyboard-friendly controls (Enter to proceed, buttons to skip)
+- Smooth animations and responsive design
+- Fully self-contained: works in the browser with no backend required
 
-A customizable Nuxt starter using:
+## Tech Stack
 
-- [Nuxt](https://nuxt.com/) v3.x
-- [Tailwind CSS](https://tailwindcss.com/) v4.x
-- [Nuxt Icon](https://nuxt.com/modules/icon)
-- [Nuxt Image](https://nuxt.com/modules/image)
+- [Vue 3](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Vanilla HTML and JavaScript
 
-| Prerequisites             |
-| :------------------------ |
-| [Node.js](https://nodejs.org/) v20.9+. |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
+No build step or framework installation required.
 
+## Getting Started
 
-## Build Setup
+1. Clone the repo or download `index.html`.
+2. Open the file in your browser.
+3. Start typing.
 
-```bash
-# install dependencies
-$ npm install
+No setup or installation required.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## File Structure
 
-# build for production and launch server
-$ npm run build
+- `index.html` — Full self-contained app
+- `README.md` — Project documentation
 
-# generate static project
-$ npm run generate
+## Design Philosophy
 
-# preview production build locally
-$ npm run preview
-```
+Amaize is designed for:
 
-## Project Structure
+- Low-friction entry into work
+- Emotional support through subtle, non-invasive messages
+- Functionality over features: everything serves a purpose
+- No login, no accounts, no distractions
 
-```
-├── data/            # JSON file for content
-├── components/      # Vue components
-├── layouts/         # Layout components
-├── pages/           # Application pages
-├── public/          # Static files
-└── assets/          # Assets that need processing
-```
+The app respects user intent and gently nudges you toward action when motivation is hard to find.
 
-## Next Steps
+## Usage Ideas
 
-Here are a few suggestions on what to do next:
+- Personal productivity aid
+- Companion for ADHD or executive function challenges
+- Tool for daily standups or reflections
+- Launchpad for longer-term task systems like Notion or Todoist
 
-- Check [Nuxt on Netlify documentation](https://docs.netlify.com/frameworks/nuxt/).
-- Check [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-- Explore [Tailwind CSS documentation](https://tailwindcss.com/docs) for styling options
+## Contributing
 
-## Support
+This project is intentionally simple. Contributions are welcome but should follow the core principles of minimalism, clarity, and emotional resonance.
 
-If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+If you'd like to extend functionality (AI integration, journaling, session tracking), open an issue to discuss direction first.
+
+## License
+
+MIT License
